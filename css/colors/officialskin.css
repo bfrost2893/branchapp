@@ -1,0 +1,207 @@
+/*****************************************
+COLORS
+*****************************************/
+
+
+/*****************************************
+PAGE: HOME
+*****************************************/
+
+#home {
+	background-color: #7cd358;
+	background: url("../../images/background@2x.png") repeat;
+	/*background-size:  50%;*/
+}
+
+
+
+/*****************************************
+STYLE
+*****************************************/
+
+/*****************************************
+PAGE: TEAM
+*****************************************/
+
+#team-title{
+	
+	position: static;
+	padding: none;
+	margin-top: -55px;
+	text-align: center;
+}
+
+/*****************************************
+PAGE: APP
+*****************************************/
+
+/*.how-it-works {
+    background: #f2f2f2;
+    color: #212725;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.how-it-works h2 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.how-it-works h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}*/
+
+/*.how-it-works */.steps {
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+
+/*.how-it-works */.steps li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 200;
+
+}
+
+/*.how-it-works */.steps li:before {
+    display: block;
+    height: 6px;
+    position: absolute;
+    top: 51px;
+    content: "";
+    background: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2220%22%20height%3D%226%22%3E%3Ccircle%20fill%3D%22%23CDCDCD%22%20cx%3D%223%22%20cy%3D%223%22%20r%3D%223%22/%3E%3C/svg%3E') repeat-x top left;
+    -webkit-background-size: 20px 6px;
+    background-size: 20px 6px;
+    background-position: -101px;
+}
+
+/*.how-it-works */.steps li:first-child:before {
+    display: none;
+
+}
+
+/*.how-it-works */.number {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    background: #212725;
+    color: #fff;
+    line-height: 110px;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    /*padding: 20px;*/
+}
+
+@media screen and (min-width:1200px) {
+    /*.how-it-works */.steps li {
+        width: 17%;
+        margin: 0 5%;
+    }
+
+    /*.how-it-works */.steps li:first-child {
+        margin-left: 0;
+    }
+
+    /*.how-it-works */.steps li:last-child {
+        margin-right: 0;
+    }
+
+    /*.how-it-works */.steps li:before {
+        width: 180px;
+        left: -142px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /*.how-it-works */.steps li {
+        width: 20%;
+        margin: 0 3%;
+    }
+
+    /*.how-it-works */.steps li:first-child {
+        margin-left: 0;
+    }
+
+    /*.how-it-works */.steps li:last-child {
+        margin-right: 0;
+    }
+
+    /*.how-it-works */.steps li:before {
+        width: 120px;
+        left: -83px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    /*.how-it-works */.steps {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    /*.how-it-works */.steps li {
+        width: 22%;
+        display: block;
+        margin: 0;
+    }
+
+    /*.how-it-works */.steps li:before {
+        width: 60px;
+        left: -38px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    /*.how-it-works {
+        padding-top: 50px;
+    }
+
+    .how-it-works h2 {
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+
+    .how-it-works */.steps {
+        max-width: 600px;
+        margin: 0 auto 60px;
+    }
+
+    /*.how-it-works */.steps li {
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+        max-width: 420px;
+        margin: 0 auto 30px;
+    }
+
+    /*.how-it-works h3 {
+        margin-bottom: 12px;
+    }
+
+    .how-it-works */.number {
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+}
